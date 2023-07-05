@@ -8,6 +8,6 @@ function Home() {
             </h1>
         </main>
     )
-};
+}
 
 export default Home;
