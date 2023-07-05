@@ -1,12 +1,15 @@
 import "./Home.css"
+import Header from "../components/Header"
+import Main from "../components/Main"
+import Footer from "../components/Footer"
 
 function Home() {
     return(
-        <main>
-            <h1>
-                Oi Bom?
-            </h1>
-        </main>
+       <div>
+        <Header />
+        <Main />
+        <Footer />
+       </div> 
     )
 }
 
