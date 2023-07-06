@@ -1,5 +1,8 @@
 .content__firstanm {
     z-index: 1;
+    background: url("./src/bg_triangles.png");
+    height: 32rem;
+    width: 100%;
 }
 
 .bg__firstanm {

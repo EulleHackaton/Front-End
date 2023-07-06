@@ -20,5 +20,22 @@ body{
   width: 100%;
 }
 
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #580e7800;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #892A2B;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #843c3e;
+
+}
+
 
 

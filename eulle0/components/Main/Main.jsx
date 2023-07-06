@@ -7,6 +7,7 @@ import PowerAutomate from "../../src/assets/TechImages/power_automate.png"
 import Outlook from "../../src/assets/TechImages/outlook.png"
 import Excel from "../../src/assets/TechImages/excel.png"
 import PowerBi from "../../src/assets/TechImages/power__bi.png"
+import FirstAnim from "./FirstAnim/FirstAnim.jsx"
 
 function Main() {
     return (
