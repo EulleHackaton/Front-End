@@ -31,10 +31,10 @@ function Main() {
 
             <div>
                 <h2><span className="description">Description</span></h2>
-                <p><span className="description__eulle">Eulle</span> é uma Inteligência Artificial feito a partir do Microsoft Power Automate.</p>
-                <p>Seu objetivo é identificar dados das notas fiscais dos escritório {"Daniel"} e  {"Dannemann"} vindo por e-mail e registrando nas planilhas em Excel, facilitando o trabalho que antes era manualmente.</p>
-                <p>No Power Automate, foi utilizado o AI Builder que serve para treinarmos uma Inteligência Artifical para que ela consiga reconhecer as notas fiscais</p>
-                <p>Foi treinado duas coleções para dois ecritórios que possuem notas fiscais diferentes.</p>
+                <p className="description_paragraph"><span className="description__eulle">Eulle</span> é uma Inteligência Artificial feito a partir do Microsoft Power Automate.</p>
+                <p className="description_paragraph">Seu objetivo é identificar dados das notas fiscais dos escritório {"Daniel"} e  {"Dannemann"} vindo por e-mail e registrando nas planilhas em Excel, facilitando o trabalho que antes era manualmente.</p>
+                <p className="description_paragraph">No Power Automate, foi utilizado o AI Builder que serve para treinarmos uma Inteligência Artifical para que ela consiga reconhecer as notas fiscais</p>
+                <p className="description_paragraph">Foi treinado duas coleções para dois ecritórios que possuem notas fiscais diferentes.</p>
             </div>
 
             <div>
@@ -67,6 +67,39 @@ function Main() {
             </div>
             <div>
                 <h2><span className="team-title">Dev Team</span></h2>
+                                {/* Deve team here */}
+                    <div className="dev-team">
+                    <div className="team-people">
+                        <img src={Vue} alt="Carlos-Photo" style={{marginLeft: 15}} />
+                        <h4>Carlos Eduardo</h4>
+                        <p className="team-function">Automation</p>
+                    </div>
+                    <div className="team-people">
+                        <img src={Vue} alt="Guilherme-Photo" style={{marginLeft: 15}} />
+                        <h4>Guilherme Silva</h4>
+                        <p className="team-function">Front-End</p>
+                    </div>
+                    <div className="team-people">
+                        <img src={Vue} alt="Joao-Photo" style={{marginLeft: 5}} />
+                        <h4>João Ribeiro</h4>
+                        <p className="team-function">Automation</p>
+                    </div>
+                    <div className="team-people">
+                        <img src={Vue} alt="Felipe-Photo" style={{marginLeft: 5}} />
+                        <h4>Felipe Pereira</h4>
+                        <p className="team-function">Front-End</p>
+                    </div>
+                    <div className="team-people">
+                        <img src={Vue} alt="Raphael-Photo" style={{marginLeft: 15}} />
+                        <h4>Raphael Torres</h4>
+                        <p className="team-function">Automation</p>
+                    </div>
+                    <div className="team-people">
+                        <img src={Vue} alt="Vitor-Photo" style={{marginLeft: 15}} />
+                        <h4>Vitor Corsi</h4>
+                        <p className="team-function">Documentation</p>
+                    </div>
+                </div>
             </div>
 
         </main>
