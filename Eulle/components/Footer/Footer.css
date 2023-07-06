@@ -1,14 +1,14 @@
 footer{
     background-color: black;
     width: 100%;
-    position: absolute;
+    height: 5.5rem;
     bottom: 0;
-
 }
 
 #boschLogo{
-    margin: 6px;
+    margin: 0.6rem;
     margin-right: 1.5em;
+    margin-top: 1rem;
     float: right;
     width: 10rem;
 }
