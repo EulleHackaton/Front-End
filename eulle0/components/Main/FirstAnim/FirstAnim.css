@@ -1,0 +1,22 @@
+.content__firstanm {
+    z-index: 1;
+}
+
+.bg__firstanm {
+    position: relative;
+    width: 100%;
+}
+
+.mascot__firstanm {
+    position: absolute;
+    top: 19%;
+    left: 20%;
+    width: 18vw;
+}
+
+.triangle__firstanm {
+    position: absolute;
+    top: 5rem;
+    right: 0rem;
+    width: 33%;
+}
