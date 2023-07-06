@@ -1,36 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 
+:root{
+    --main-red: #BE0004;
+}
+
 main{
     padding-bottom: 30rem;
 }
 
-#title{
+.title{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#nameTitle{
+.video-pitch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+    margin-bottom: 10rem;
+}
+
+.nameTitle{
     width: 10rem;
     height: 4rem;
 }
 
-#nameDocs{
+.nameDocs{
     font-size: 5rem;
     font-family: 'Fredoka', 'sans-serif';   
 }
 
-#description, h2{
-    color: #920002;
+.description, h2{
+    color: var(--main-red);
     font-size: 3rem;
     font-family: 'Fredoka', sans-serif;
     text-align: center;
+
 }
 
-#descriptionEulle{
+.description__eulle{
     font-family: 'Inter', sans-serif;
-    color: #7D0002;
+    color: var(--main-red);
     font-size: 1.2rem;
 }
 
@@ -40,31 +53,52 @@ p{
     font-size: 1.2rem;
 }
 
-#hiw-content{
+.hiw-content{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10rem;
+}
+
+.hiw-video{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
 }
 
 
-#hiw{
+.hiw{
     color: white;
     font-family: 'Fredok', sans-serif;
 
 }
 
 
-#technologies{
+.mascot{
+    transform: rotate(-25deg);
+}
+
+
+.technologies{
     color: white;
     font-family: 'Fredoka', sans-serif;   
 }
 
-
-#img-1, #img-2, #img-3{
-    align-items: center;
+.tech-images{
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 10rem;
 }
 
+.image{
+    margin-left: 3rem;
+}
 
+.team-title{
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+}
 
