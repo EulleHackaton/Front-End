@@ -47,7 +47,7 @@ main{
     font-size: 1.2rem;
 }
 
-p{
+.description_paragraph{
     font-family: 'Inter', sans-serif;
     text-align: center;
     font-size: 1.2rem;
@@ -102,3 +102,21 @@ p{
     font-family: 'Fredoka', sans-serif;
 }
 
+
+.dev-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+
+
+.team-people{
+    margin-left: 5.5rem;
+}
+
+
+.team-function{
+    text-align: center;
+}
