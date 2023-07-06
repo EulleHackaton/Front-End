@@ -9,6 +9,16 @@ function Main() {
                     <h1 className="nameDocs">Docs</h1>
                 </div>
                 {/* Aqui irá ficar o vídeo Pitch */}
+
+                <div className="video-pitch">
+                    <video width={700} controls autoPlay>
+                        <source src="../../src/assets/videos/VideoVOS.mp4" type="video/ogg"/>
+                        <source src="../../src/assets/videos/VideoVOS.mp4" type="video/avi"/>
+                        <source  src="../../src/assets/videos/VideoVOS.mp4" type="video/mp4"/>
+                        <p>Desculpe, mas seu navegador não suporta o tipo do vídeo, mas você pode baixar clicando <a href="#">aqui</a></p>
+                    </video>
+                </div>
+
             </div>
 
             <div>
@@ -26,20 +36,25 @@ function Main() {
                     <img src="../../src/assets/Group 41.png" alt="Mascote" />
                 </div>
                 {/*Video Here*/}
+
+                <div className="hiw-video">
+                    <video width={700} controls autoPlay>
+                            <source src="../../src/assets/videos/VideoVOS.mp4" type="video/ogg"/>
+                            <source src="../../src/assets/videos/VideoVOS.mp4" type="video/avi"/>
+                            <source  src="../../src/assets/videos/VideoVOS.mp4" type="video/mp4"/>
+                            <p>Desculpe, mas seu navegador não suporta o tipo do vídeo, mas você pode baixar clicando <a href="#">aqui</a></p>
+                    </video>
+                </div>
             </div>
 
             <div>
                 <h2><span className="technologies">Technologies</span></h2>
-                <div className="img-1">
-                    <img src="../../src/assets/TechImages/Group 42.png" alt="Power-Automate" style={{marginRight: 50}}/>
-                    <img src="../../src/assets/TechImages/image-removebg-preview (1) 1.png" alt="Vue-React" style={{marginLeft: 50}}/>
-                </div>
-                <div className="img-2">
-                    <img src="../../src/assets/TechImages/image 1.png" alt="Outlook" style={{marginRight: 110}} />
-                    <img src="../../src/assets/TechImages/image-removebg-preview (2) 1.png" alt="Excel" style={{marginRight: 14}} />
-                </div>
-                <div className="img-3">
-                    <img src="../../src/assets/TechImages/image 2.png" alt="Power-BI" style={{marginTop: 20}} />
+                <div className="tech-images">
+                    <img src="../../src/assets/TechImages/power_automate.png" className="image" alt="Power-Automate" />
+                    <img src="../../src/assets/TechImages/vue.png" alt="Vue-React" className="image" />
+                    <img src="../../src/assets/TechImages/outlook.png" alt="Outlook" className="image" />
+                    <img src="../../src/assets/TechImages/excel.png" alt="Excel" className="image" />
+                    <img src="../../src/assets/TechImages/power__bi.png" alt="Power-BI" className="image" />
                 </div>
             </div>
             <div>
