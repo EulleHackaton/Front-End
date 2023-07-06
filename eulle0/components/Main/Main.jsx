@@ -11,7 +11,10 @@ import PowerBi from "../../src/assets/TechImages/power__bi.png"
 function Main() {
     return (
         <main>
-            <div>
+            <section className="container__firstanm">
+                <FirstAnim />
+            </section>
+            <section>
                 <div className="title">
                     <img src={Eulle} alt="Eulle-Name" className="nameTitle"/>
                     <h1 className="nameDocs">Docs</h1>
@@ -27,17 +30,17 @@ function Main() {
                     </video>
                 </div>
 
-            </div>
+            </section>
 
-            <div>
+            <article>
                 <h2><span className="description">Description</span></h2>
                 <p className="description_paragraph"><span className="description__eulle">Eulle</span> é uma Inteligência Artificial feito a partir do Microsoft Power Automate.</p>
                 <p className="description_paragraph">Seu objetivo é identificar dados das notas fiscais dos escritório {"Daniel"} e  {"Dannemann"} vindo por e-mail e registrando nas planilhas em Excel, facilitando o trabalho que antes era manualmente.</p>
                 <p className="description_paragraph">No Power Automate, foi utilizado o AI Builder que serve para treinarmos uma Inteligência Artifical para que ela consiga reconhecer as notas fiscais</p>
                 <p className="description_paragraph">Foi treinado duas coleções para dois ecritórios que possuem notas fiscais diferentes.</p>
-            </div>
+            </article>
 
-            <div>
+            <section>
                 <div className="hiw-content">
                     <img src={Mascot} alt="Mascote" className="mascot"/>
                     <h2><span className="hiw">How it works?</span></h2>
@@ -53,9 +56,9 @@ function Main() {
                             <p>Desculpe, mas seu navegador não suporta o tipo do vídeo, mas você pode baixar clicando <a href="#">aqui</a></p>
                     </video>
                 </div>
-            </div>
+            </section>
 
-            <div>
+            <section>
                 <h2><span className="technologies">Technologies</span></h2>
                 <div className="tech-images">
                     <img src={PowerAutomate} className="image" alt="Power-Automate" />
@@ -64,10 +67,10 @@ function Main() {
                     <img src={Excel} alt="Excel" className="image" />
                     <img src={PowerBi} alt="Power-BI" className="image" />
                 </div>
-            </div>
-            <div>
+            </section>
+            <section>
                 <h2><span className="team-title">Dev Team</span></h2>
-                                {/* Deve team here */}
+                    {/* Deve team here */}
                     <div className="dev-team">
                     <div className="team-people">
                         <img src={Vue} alt="Carlos-Photo" style={{marginLeft: 15}} />
@@ -100,8 +103,7 @@ function Main() {
                         <p className="team-function">Documentation</p>
                     </div>
                 </div>
-            </div>
-
+             </section>
         </main>
     );
 }
