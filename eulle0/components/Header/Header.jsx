@@ -1,11 +1,13 @@
 import "./Header.css"
+import logo from "../../src/assets/Eulle.png"
+import bgraph from "../../src/assets/supergraphic.png"
 
 function Header() {
     return (
     <header>
         <nav className="nav__header">
-            <a href="/"><img src="../../src/assets/Eulle.png" alt="Eulle Icon" className="logoName"/></a>
-            <img src="../../src/assets/supergraphic.png" alt="Bosch-Supergraphic" className="boschGraph" />
+            <a href="/"><img src={logo} alt="Eulle Icon" className="logoName"/></a>
+            <img src={bgraph} alt="Bosch-Supergraphic" className="boschGraph" />
         </nav>
     </header>
     );

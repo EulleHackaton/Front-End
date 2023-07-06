@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.cdnfonts.com/css/feather-2');
 
 :root{
-    --main-red: #BE0004;
+    --main-red: #9F2627;
 }
 
 main{
@@ -15,7 +15,7 @@ main{
     align-items: center;
 }
 
-.video-pitch{
+.video-pitch {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,34 +23,52 @@ main{
     margin-bottom: 10rem;
 }
 
+.video-pitch video{
+    width: 100%;
+    max-height: 100%;
+    max-width: 80rem;
+}
+
 .nameTitle{
-    width: 10rem;
+    width: 12rem;
     height: 4rem;
 }
 
 .nameDocs{
     font-size: 5rem;
-    font-family: 'Fredoka', 'sans-serif';   
+    font-family: 'Feather', sans-serif;  
 }
 
-.description, h2{
+.description{
     color: var(--main-red);
     font-size: 3rem;
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Feather', sans-serif;
     text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
+.content__description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .description__eulle{
-    font-family: 'Inter', sans-serif;
     color: var(--main-red);
-    font-size: 1.2rem;
+    font-size: 1.7rem;
+    font-family: 'Feather', sans-serif;  
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .description_paragraph{
     font-family: 'Inter', sans-serif;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    text-indent: 2rem;
+    max-width: 70%;
+    margin: auto;
+    text-align: justify;
 }
 
 .hiw-content{
@@ -66,56 +84,75 @@ main{
     justify-content: center;
     align-items: center;
     margin-bottom: 10rem;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 5rem;
+
 }
 
 
-.hiw{
+.hiw-video video {
+    width: 100%;
+    max-height: 100%;
+    max-width: 80rem;
+}
+
+.hiw__text{
     color: white;
-    font-family: 'Fredok', sans-serif;
-
+    font-size: 3rem;
+    font-family: 'Feather', sans-serif;  
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
 
 .mascot{
     transform: rotate(-25deg);
 }
 
 
-.technologies{
+.technologies__h2{
     color: white;
-    font-family: 'Fredoka', sans-serif;   
+    font-size: 3rem;
+    font-family: 'Feather', sans-serif;  
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .tech-images{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10rem;
+    flex-wrap: wrap;
+    gap: 5rem;
+    max-width: 70%;
+    margin: 5rem auto 10rem;
 }
 
-.image{
-    margin-left: 3rem;
-}
 
 .team-title{
     color: white;
-    font-family: 'Fredoka', sans-serif;
+    font-size: 3rem;
+    font-family: 'Feather', sans-serif;  
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
 
 .dev-team{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10rem;
+    flex-wrap: wrap;
+    max-width: 60%;
+    margin: 5rem auto;
+    gap: 5.5rem;
 }
-
-
 
 .team-people{
-    margin-left: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
 
 .team-function{
     text-align: center;
