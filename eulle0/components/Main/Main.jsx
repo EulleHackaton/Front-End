@@ -8,13 +8,19 @@ import Outlook from "../../src/assets/TechImages/outlook.png"
 import Excel from "../../src/assets/TechImages/excel.png"
 // import PowerBi from "../../src/assets/TechImages/power__bi.png"
 import FirstAnim from "./FirstAnim/FirstAnim.jsx"
-import User from "../../src/assets/userexample.png"
 import git from "../../src/assets/github.png"
+import kadu from "../../src/assets/teamImages/kadu.jpg"
+import corsi from "../../src/assets/teamImages/corsi.jpg"
+import felipe from "../../src/assets/teamImages/felipe.jpg"
+import gui from "../../src/assets/teamImages/gui.jpg"
+import pedrin from "../../src/assets/teamImages/pedrin.jpg"
+import rapha from "../../src/assets/teamImages/rapha.jpg"
 
 function Main() {
     return (
         <main>
             <section className="container__firstanm">
+                <FirstAnim />
             </section>
             <section>
                 <div className="title">
@@ -62,8 +68,9 @@ function Main() {
                             <p>Desculpe, mas seu navegador não suporta o tipo do vídeo, mas você pode baixar clicando <a href="#">aqui</a></p>
                     </video>
                 </div>
-                <div style={{marginBottom: 150}}>
+                <div className="hiwdesc__main">
                     <p className="description_paragraph">Quando for enviado um e-mail para a pessoa responsável pela planilha no Excel com o PDF da Fatura a Inteligência Artificial vai ler os dados e guardar nas variáveis os mesmo que lhe foi treinada para ler.</p>
+
                     <p className="description_paragraph">Após salvar os dados, a automação do Power Automate vai inserir os dados das variáveis em seus respectivos campos da planilha.</p>
                 </div>
             </section>
@@ -83,7 +90,7 @@ function Main() {
                     {/* Deve team here */}
                 <div className="dev-team">
                     <div className="team-people">
-                        <img className="imgteam__main" src={User} alt="Carlos-Photo" />
+                        <img className="imgteam__main" src={kadu} alt="Carlos-Photo" />
                         <div className="withgit__main">    
                             <h2 className="nameteam__main">Carlos Eduardo</h2>
                             <a href="https://github.com/Kadu17" target="_blank" rel="noopener noreferrer">
@@ -93,7 +100,7 @@ function Main() {
                         <p className="team-function">Automation</p>
                     </div>
                     <div className="team-people">
-                        <img className="imgteam__main" src={User} alt="Guilherme-Photo" />
+                        <img className="imgteam__main" src={gui} alt="Guilherme-Photo" />
                         <div className="withgit__main">    
                             <h2 className="nameteam__main">Guilherme Silva</h2>
                             <a href="https://github.com/remix-pc" target="_blank" rel="noopener noreferrer">
@@ -103,7 +110,7 @@ function Main() {
                         <p className="team-function">Front-End</p>
                     </div>
                     <div className="team-people">
-                        <img className="imgteam__main" src={User} alt="Joao-Photo" />
+                        <img className="imgteam__main" src={pedrin} alt="Joao-Photo" />
                         <div className="withgit__main">    
                             <h2 className="nameteam__main">João Ribeiro</h2>
                             <a href="https://github.com/joaoP-ribeiro" target="_blank" rel="noopener noreferrer">
@@ -113,7 +120,7 @@ function Main() {
                         <p className="team-function">Automation</p>
                     </div>
                     <div className="team-people">
-                        <img className="imgteam__main" src={User} alt="Felipe-Photo" />
+                        <img className="imgteam__main" src={felipe} alt="Felipe-Photo" />
                         <div className="withgit__main">    
                             <h2 className="nameteam__main">Felipe Pereira</h2>
                             <a href="https://github.com/Flepsz" target="_blank" rel="noopener noreferrer">
@@ -123,7 +130,7 @@ function Main() {
                         <p className="team-function">Front-End</p>
                     </div>
                     <div className="team-people">
-                        <img className="imgteam__main" src={User} alt="Raphael-Photo" />
+                        <img className="imgteam__main" src={rapha} alt="Raphael-Photo" />
                         <div className="withgit__main">    
                             <h2 className="nameteam__main">Raphael Torres</h2>
                             <a href="https://github.com/raphavtorres" target="_blank" rel="noopener noreferrer">
@@ -133,7 +140,7 @@ function Main() {
                         <p className="team-function">Automation</p>
                     </div>
                     <div className="team-people">
-                        <img className="imgteam__main" src={User} alt="Vitor-Photo" />
+                        <img className="imgteam__main" src={corsi} alt="Vitor-Photo" />
                         <div className="withgit__main">    
                             <h2 className="nameteam__main">Vitor Corsi</h2>
                             <a href="https://github.com/vicorsi" target="_blank" rel="noopener noreferrer">
