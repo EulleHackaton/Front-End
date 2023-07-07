@@ -1,13 +1,14 @@
 import "./main.css"
 import Vue from "../../src/assets/TechImages/vue.png"
 import Eulle from '../../src/assets/Eulle.png'
-import VideoPitch from '../../src/assets/videos/VideoVOS.mp4'
+import VideoPitch from '../../src/assets/videos/pv_w.mp4'
 import Mascot from '../../src/assets/Group 41.png'
 import PowerAutomate from "../../src/assets/TechImages/power_automate.png"
 import Outlook from "../../src/assets/TechImages/outlook.png"
 import Excel from "../../src/assets/TechImages/excel.png"
 // import PowerBi from "../../src/assets/TechImages/power__bi.png"
 import FirstAnim from "./FirstAnim/FirstAnim.jsx"
+import User from "../../src/assets/userexample.png"
 
 function Main() {
     return (
@@ -55,7 +56,7 @@ function Main() {
                 {/*Video Here*/}
 
                 <div className="hiw-video">
-                    <video controls autoPlay>
+                    <video controls>
                             <source src={VideoPitch} type="video/ogg"/>
                             <source src={VideoPitch} type="video/avi"/>
                             <source  src={VideoPitch} type="video/mp4"/>
@@ -79,33 +80,45 @@ function Main() {
                     {/* Deve team here */}
                 <div className="dev-team">
                     <div className="team-people">
-                        <img src={Vue} alt="Carlos-Photo" />
-                        <h2 className="nameteam__main">Carlos Eduardo</h2>
+                        <img className="imgteam__main" src={User} alt="Carlos-Photo" />
+                        <div className="withgit__main">    
+                            <h2 className="nameteam__main">Carlos Eduardo</h2>
+                        </div>
                         <p className="team-function">Automation</p>
                     </div>
                     <div className="team-people">
-                        <img src={Vue} alt="Guilherme-Photo" />
-                        <h2 className="nameteam__main">Guilherme Silva</h2>
+                        <img className="imgteam__main" src={User} alt="Guilherme-Photo" />
+                        <div className="withgit__main">    
+                            <h2 className="nameteam__main">Guilherme Silva</h2>
+                        </div>
                         <p className="team-function">Front-End</p>
                     </div>
                     <div className="team-people">
-                        <img src={Vue} alt="Joao-Photo" />
-                        <h2 className="nameteam__main">João Ribeiro</h2>
+                        <img className="imgteam__main" src={User} alt="Joao-Photo" />
+                        <div className="withgit__main">    
+                            <h2 className="nameteam__main">João Ribeiro</h2>
+                        </div>
                         <p className="team-function">Automation</p>
                     </div>
                     <div className="team-people">
-                        <img src={Vue} alt="Felipe-Photo" />
-                        <h2 className="nameteam__main">Felipe Pereira</h2>
+                        <img className="imgteam__main" src={User} alt="Felipe-Photo" />
+                        <div className="withgit__main">    
+                            <h2 className="nameteam__main">Felipe Pereira</h2>
+                        </div>
                         <p className="team-function">Front-End</p>
                     </div>
                     <div className="team-people">
-                        <img src={Vue} alt="Raphael-Photo" />
-                        <h2 className="nameteam__main">Raphael Torres</h2>
+                        <img className="imgteam__main" src={User} alt="Raphael-Photo" />
+                        <div className="withgit__main">    
+                            <h2 className="nameteam__main">Raphael Torres</h2>
+                        </div>
                         <p className="team-function">Automation</p>
                     </div>
                     <div className="team-people">
-                        <img src={Vue} alt="Vitor-Photo" />
-                        <h2 className="nameteam__main">Vitor Corsi</h2>
+                        <img className="imgteam__main" src={User} alt="Vitor-Photo" />
+                        <div className="withgit__main">    
+                            <h2 className="nameteam__main">Vitor Corsi</h2>
+                        </div>
                         <p className="team-function">Documentation</p>
                     </div>
                 </div>

@@ -1,5 +1,4 @@
 import "./FirstAnim.css"
-import bg_triangles from "./src/bg_triangles.png"
 import mascot from "./src/mascot.png"
 import triangle from "./src/triangle.png"
 

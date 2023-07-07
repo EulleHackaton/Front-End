@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/feather-2');
 
 :root{
@@ -6,7 +6,7 @@
 }
 
 main{
-    padding-bottom: 30rem;
+    padding-bottom: 7rem;
 }
 
 .title{
@@ -19,8 +19,9 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5rem;
+    margin: 0 5rem;
     margin-bottom: 10rem;
+    border: 3rem solid #93292A;
 }
 
 .video-pitch video{
@@ -39,7 +40,7 @@ main{
     font-family: 'Feather', sans-serif;  
 }
 
-.description{
+.description {
     color: var(--main-red);
     font-size: 3rem;
     font-family: 'Feather', sans-serif;
@@ -53,7 +54,7 @@ main{
     gap: 2rem;
 }
 
-.description__eulle{
+.description__eulle {
     color: var(--main-red);
     font-size: 1.7rem;
     font-family: 'Feather', sans-serif;  
@@ -61,7 +62,7 @@ main{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.description_paragraph{
+.description_paragraph {
     font-family: 'Inter', sans-serif;
     text-align: center;
     font-size: 1.5rem;
@@ -71,14 +72,14 @@ main{
     text-align: justify;
 }
 
-.hiw-content{
+.hiw-content {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 6rem;
 }
 
-.hiw-video{
+.hiw-video {
     margin-top: 7rem;
     display: flex;
     justify-content: center;
@@ -87,10 +88,9 @@ main{
     max-width: 100%;
     margin: 0 auto;
     text-align: center;
-    margin: 5rem;
+    margin: 0 5rem 10rem;
 
 }
-
 
 .hiw-video video {
     width: 100%;
@@ -98,7 +98,7 @@ main{
     max-width: 80rem;
 }
 
-.hiw__text{
+.hiw__text {
     color: white;
     font-size: 3rem;
     font-family: 'Feather', sans-serif;  
@@ -106,12 +106,12 @@ main{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.mascot{
+.mascot {
     transform: rotate(-25deg);
 }
 
 
-.technologies__h2{
+.technologies__h2 {
     color: white;
     font-size: 3rem;
     font-family: 'Feather', sans-serif;  
@@ -119,7 +119,7 @@ main{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.tech-images{
+.tech-images {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,7 +130,7 @@ main{
 }
 
 
-.team-title{
+.team-title {
     color: white;
     font-size: 3rem;
     font-family: 'Feather', sans-serif;  
@@ -138,22 +138,86 @@ main{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.dev-team{
+.dev-team {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 60%;
+    max-width: 70%;
     margin: 5rem auto;
     gap: 5.5rem;
 }
 
-.team-people{
+.nameteam__main {
+    font-weight: 700;
+    margin-block: 0;
+}
+.team-function {
+    font-weight: 500;
+    margin-block: 0;
+}
+
+.team-people {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.team-function{
+.team-function {
     text-align: center;
+}
+
+.withgit__main {
+
+}
+
+.imgteam__main {
+    border: 3px solid #892A2B;
+    border-radius: 50%;
+    width: 7rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (max-width: 425px) {
+    .nameTitle {
+        width: 9rem;
+        height: 3rem;
+    }
+
+    .nameDocs {
+        font-size: 4rem;
+    }
+
+    .hiw-content {
+        scale: 0.8;
+    }
+
+    .video-pitch video{
+        width: 19rem;
+    }
+
+    .hiw-video video {
+        width: 19rem;
+    }
+
+    .dev-team {
+        max-width: 90%;
+    }
+
+    .nameteam__main {
+        font-size: 1rem;
+    }
+    .team-function {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 700px) {
+    .video-pitch video{
+        width: 25rem;
+    }
+
+    .hiw-video video {
+        width: 25rem;
+    }
 }
