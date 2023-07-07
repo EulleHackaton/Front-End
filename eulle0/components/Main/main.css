@@ -75,6 +75,12 @@ main{
     text-align: justify;
 }
 
+.hiw__main {
+    background: url("../../src/assets/stripe.png");
+    background-repeat: no-repeat;
+    background-position: unset;
+}
+
 .hiw-content {
     display: flex;
     align-items: center;
@@ -117,7 +123,6 @@ main{
     transform: rotate(-25deg);
 }
 
-
 .technologies__h2 {
     color: white;
     font-size: 3rem;
@@ -135,7 +140,6 @@ main{
     max-width: 70%;
     margin: 5rem auto 10rem;
 }
-
 
 .team-title {
     color: white;
@@ -203,6 +207,10 @@ main{
         font-size: 4rem;
     }
 
+    .hiw__main {
+        background-size: 40rem;
+    }
+
     .hiw-content {
         scale: 0.8;
     }
@@ -234,12 +242,22 @@ main{
 }
 
 @media screen and (min-width: 425px) and (max-width: 700px) {
+    .hiw__main {
+        background-size: 60rem;
+    }
+
     .video-pitch video{
         width: 25rem;
     }
 
     .hiw-video video {
         width: 25rem;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1400px) {
+    .hiw__main {
+        background-size: 90rem;
     }
 }
 

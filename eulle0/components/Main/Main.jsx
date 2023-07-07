@@ -53,7 +53,7 @@ function Main() {
                 </div>
             </article>
 
-            <section>
+            <section className="hiw__main">
                 <div className="hiw-content">
                     <img src={Mascot} alt="Mascote" className="mascot"/>
                     <h2 className="hiw__text">How it works?</h2>

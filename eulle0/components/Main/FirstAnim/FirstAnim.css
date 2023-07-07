@@ -1,61 +1,79 @@
 .content__firstanm {
+    display: flex;
+    justify-content: space-between;
     z-index: 1;
     background: url("./src/bg_triangles.png");
     height: 32rem;
     width: 100%;
 }
 
-.bg__firstanm {
-    position: relative;
-    width: 100%;
-}
-
 .mascot__firstanm {
-    position: absolute;
-    top: 19%;
-    left: 20%;
-    width: 18vw;
-    z-index: 1;
+    width: 25rem;
+    height: 25rem;
+    margin: 7rem 0 0 10rem;
 }
 
 .triangle__firstanm {
-    position: absolute;
-    top: 5rem;
-    right: 0rem;
-    width: 33%;
+    width: 50rem;
+    height: 50rem;
 }
 
-@media screen and (max-width: 575px) {
+
+@media screen and (max-width: 380px) {
     .content__firstanm {
-        height: 25rem;
+        height: 22rem;
     }
 
     .mascot__firstanm {
-        width: 35vw;
+        width: 8rem;
+        height: 8rem;
+        margin-left: 3rem;
     }
 
     .triangle__firstanm {
-        width: 45%;
+        width: 8rem;
+        height: 22rem;
+    }
+}
+
+@media screen and (min-width: 380px) and (max-width: 575px) {
+    .content__firstanm {
+        height: 22rem;
+    }
+
+    .mascot__firstanm {
+        width: 10rem;
+        height: 10rem;
+        margin-left: 3rem;
+    }
+
+    .triangle__firstanm {
+        width: 10rem;
         height: 25rem;
     }
 }
 
 @media screen and (min-width: 575px) and (max-width: 900px) {
     .mascot__firstanm {
-        width: 30vw;
+        width: 15rem;
+        height: 15rem;
+        margin-left: 5rem;
     }
 
     .triangle__firstanm {
-        width: 50%;
+        width: 15rem;
+        height: 33rem;
     }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1400px) {
     .mascot__firstanm {
-        width: 24vw;
+        width: 22rem;
+        height: 22rem;
     }
 
     .triangle__firstanm {
-        width: 40%;
+        width: 25rem;
+        height: 35rem;
     }
 }
