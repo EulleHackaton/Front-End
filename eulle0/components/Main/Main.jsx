@@ -17,13 +17,13 @@ import gui from "../../src/assets/teamImages/gui.jpg"
 import pedrin from "../../src/assets/teamImages/pedrin.jpg"
 import rapha from "../../src/assets/teamImages/rapha.jpg"
 
-import Aos from "aos"
-import "aos/dist/aos.css"
+// import Aos from "aos"
+// import "aos/dist/aos.css"
 
 function Main() {
-    useEffect(() => {
-        Aos.init({ duration: 2000 });
-    }, [])
+    // useEffect(() => {
+    //     Aos.init({ duration: 2000 });
+    // }, [])
 
     return (
         <main>
@@ -36,7 +36,7 @@ function Main() {
                     <h1 className="nameDocs">Docs</h1>
                 </div>
                 {/* Aqui irá ficar o vídeo Pitch */}
-                <div data-aos="fade-up-" className="video-pitch">
+                <div data-aos="fade-up" className="video-pitch">
                     <video controls autoPlay>
                         <source src={VideoPitch} type="video/ogg"/>
                         <source src={VideoPitch} type="video/avi"/>
@@ -49,13 +49,13 @@ function Main() {
             <article>
                 <h2 className="description">Description</h2>
                 <div className="content__description">
-                    <p className="description_paragraph"><span className="description__eulle">Eulle</span> é uma Inteligência Artificial feito a partir do Microsoft Power Automate.</p>
+                    <p className="description_paragraph"><span className="description__eulle">Eulle</span> is an Artificial Intelligence made from Microsoft Power Automate.</p>
                     
-                    <p className="description_paragraph">   Seu objetivo é identificar dados das notas fiscais dos escritório {"Daniel"} e  {"Dannemann"} vindo por e-mail e registrando nas planilhas em Excel, facilitando o trabalho que antes era manualmente.</p>
+                    <p className="description_paragraph">Its objective is to identify data from invoices from the Daniel and Dannemann offices coming by e-mail and registering them in Excel spreadsheets, facilitating the work that used to be done manually.</p>
                     
-                    <p className="description_paragraph">No Power Automate, foi utilizado o AI Builder que serve para treinarmos uma Inteligência Artifical para que ela consiga reconhecer as notas fiscais.</p>
+                    <p className="description_paragraph">In Power Automate, the AI ​​Builder was used to train an Artificial Intelligence so that it can recognize invoices.</p>
                     
-                    <p className="description_paragraph">Foi treinado duas coleções para dois ecritórios que possuem notas fiscais diferentes.</p>
+                    <p className="description_paragraph">Two collections were trained for two offices that have different invoices.</p>
                 </div>
             </article>
 
@@ -71,13 +71,13 @@ function Main() {
                             <source src={VideoPitch} type="video/ogg"/>
                             <source src={VideoPitch} type="video/avi"/>
                             <source  src={VideoPitch} type="video/mp4"/>
-                            <p>Desculpe, mas seu navegador não suporta o tipo do vídeo, mas você pode baixar clicando <a href="#">aqui</a></p>
+                            <p>Sorry, your browser does not support the video type, but you can download it by clicking <a href="#">HERE</a></p>
                     </video>
                 </div>
                 <div className="hiwdesc__main">
-                    <p className="description_paragraph">Quando for enviado um e-mail para a pessoa responsável pela planilha no Excel com o PDF da Fatura a Inteligência Artificial vai ler os dados e guardar nas variáveis os mesmo que lhe foi treinada para ler.</p>
+                    <p className="description_paragraph">When an email is sent to the person responsible for the spreadsheet in Excel with the PDF of the Invoice, the Artificial Intelligence will read the data and store in the variables the same ones it was trained to read.</p>
 
-                    <p className="description_paragraph">Após salvar os dados, a automação do Power Automate vai inserir os dados das variáveis em seus respectivos campos da planilha.</p>
+                    <p className="description_paragraph">After saving the data, the Power Automate automation will insert the variable data into their respective worksheet fields.</p>
                 </div>
             </section>
 
