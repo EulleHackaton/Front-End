@@ -9,6 +9,7 @@ import Excel from "../../src/assets/TechImages/excel.png"
 // import PowerBi from "../../src/assets/TechImages/power__bi.png"
 import FirstAnim from "./FirstAnim/FirstAnim.jsx"
 import User from "../../src/assets/userexample.png"
+import git from "../../src/assets/github.png"
 
 function Main() {
     return (
@@ -83,6 +84,9 @@ function Main() {
                         <img className="imgteam__main" src={User} alt="Carlos-Photo" />
                         <div className="withgit__main">    
                             <h2 className="nameteam__main">Carlos Eduardo</h2>
+                            <a href="https://github.com/Kadu17" target="_blank" rel="noopener noreferrer">
+                                <img className="github__main" src={git} alt="GitHub" />
+                            </a>
                         </div>
                         <p className="team-function">Automation</p>
                     </div>
@@ -90,6 +94,9 @@ function Main() {
                         <img className="imgteam__main" src={User} alt="Guilherme-Photo" />
                         <div className="withgit__main">    
                             <h2 className="nameteam__main">Guilherme Silva</h2>
+                            <a href="https://github.com/remix-pc" target="_blank" rel="noopener noreferrer">
+                                <img className="github__main" src={git} alt="GitHub" />
+                            </a>
                         </div>
                         <p className="team-function">Front-End</p>
                     </div>
@@ -97,6 +104,9 @@ function Main() {
                         <img className="imgteam__main" src={User} alt="Joao-Photo" />
                         <div className="withgit__main">    
                             <h2 className="nameteam__main">João Ribeiro</h2>
+                            <a href="https://github.com/joaoP-ribeiro" target="_blank" rel="noopener noreferrer">
+                                <img className="github__main" src={git} alt="GitHub" />
+                            </a>
                         </div>
                         <p className="team-function">Automation</p>
                     </div>
@@ -104,6 +114,9 @@ function Main() {
                         <img className="imgteam__main" src={User} alt="Felipe-Photo" />
                         <div className="withgit__main">    
                             <h2 className="nameteam__main">Felipe Pereira</h2>
+                            <a href="https://github.com/Flepsz" target="_blank" rel="noopener noreferrer">
+                                <img className="github__main" src={git} alt="GitHub" />
+                            </a>
                         </div>
                         <p className="team-function">Front-End</p>
                     </div>
@@ -111,6 +124,9 @@ function Main() {
                         <img className="imgteam__main" src={User} alt="Raphael-Photo" />
                         <div className="withgit__main">    
                             <h2 className="nameteam__main">Raphael Torres</h2>
+                            <a href="https://github.com/raphavtorres" target="_blank" rel="noopener noreferrer">
+                                <img className="github__main" src={git} alt="GitHub" />
+                            </a>
                         </div>
                         <p className="team-function">Automation</p>
                     </div>
@@ -118,6 +134,9 @@ function Main() {
                         <img className="imgteam__main" src={User} alt="Vitor-Photo" />
                         <div className="withgit__main">    
                             <h2 className="nameteam__main">Vitor Corsi</h2>
+                            <a href="https://github.com/vicorsi" target="_blank" rel="noopener noreferrer">
+                                <img className="github__main" src={git} alt="GitHub" />
+                            </a>
                         </div>
                         <p className="team-function">Documentation</p>
                     </div>
