@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import "./main.css"
 import Vue from "../../src/assets/TechImages/vue.png"
 import Eulle from '../../src/assets/Eulle.png'
@@ -16,7 +17,14 @@ import gui from "../../src/assets/teamImages/gui.jpg"
 import pedrin from "../../src/assets/teamImages/pedrin.jpg"
 import rapha from "../../src/assets/teamImages/rapha.jpg"
 
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 function Main() {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, [])
+
     return (
         <main>
             <section className="container__firstanm">
@@ -28,8 +36,7 @@ function Main() {
                     <h1 className="nameDocs">Docs</h1>
                 </div>
                 {/* Aqui irá ficar o vídeo Pitch */}
-
-                <div className="video-pitch">
+                <div data-aos="fade-up-" className="video-pitch">
                     <video controls autoPlay>
                         <source src={VideoPitch} type="video/ogg"/>
                         <source src={VideoPitch} type="video/avi"/>
@@ -37,7 +44,6 @@ function Main() {
                         <p>Desculpe, mas seu navegador não suporta o tipo do vídeo, mas você pode baixar clicando <a href="#">aqui</a></p>
                     </video>
                 </div>
-
             </section>
 
             <article>
