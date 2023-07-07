@@ -15,7 +15,6 @@ function Main() {
     return (
         <main>
             <section className="container__firstanm">
-                <FirstAnim />
             </section>
             <section>
                 <div className="title">
@@ -55,7 +54,6 @@ function Main() {
                     <img src={Mascot} alt="Mascote" className="mascot-2"/>
                 </div>
                 {/*Video Here*/}
-
                 <div className="hiw-video">
                     <video controls>
                             <source src={VideoPitch} type="video/ogg"/>
@@ -63,6 +61,10 @@ function Main() {
                             <source  src={VideoPitch} type="video/mp4"/>
                             <p>Desculpe, mas seu navegador não suporta o tipo do vídeo, mas você pode baixar clicando <a href="#">aqui</a></p>
                     </video>
+                </div>
+                <div style={{marginBottom: 150}}>
+                    <p className="description_paragraph">Quando for enviado um e-mail para a pessoa responsável pela planilha no Excel com o PDF da Fatura a Inteligência Artificial vai ler os dados e guardar nas variáveis os mesmo que lhe foi treinada para ler.</p>
+                    <p className="description_paragraph">Após salvar os dados, a automação do Power Automate vai inserir os dados das variáveis em seus respectivos campos da planilha.</p>
                 </div>
             </section>
 
