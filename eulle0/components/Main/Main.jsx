@@ -3,6 +3,8 @@ import "./main.css"
 import Vue from "../../src/assets/TechImages/vue.png"
 import Eulle from '../../src/assets/Eulle.png'
 import VideoPitch from '../../src/assets/videos/pv_w.mp4'
+import VideoDemo from "../../src/assets/videos/d_eulle.mp4"
+import VideoAnm from "../../src/assets/videos/anm_logo.mp4"
 import PowerAutomate from "../../src/assets/TechImages/power_automate.png"
 import Outlook from "../../src/assets/TechImages/outlook.png"
 import Mascot from '../../src/assets/Group 41.png'
@@ -54,7 +56,7 @@ function Main() {
                     
                     <p className="description_paragraph">Its objective is to identify data from invoices from the Daniel and Dannemann offices coming by e-mail and registering them in Excel spreadsheets, facilitating the work that used to be done manually.</p>
                     
-                    <p className="description_paragraph">In Power Automate, the AI ​​Builder was used to train an Artificial Intelligence so that it can recognize invoices.</p>
+                    <p className="description_paragraph">In Power Automate, the AI Builder was used to train an Artificial Intelligence so that it can recognize invoices.</p>
                     
                     <p className="description_paragraph">Two collections were trained for two offices that have different invoices.</p>
                 </div>
@@ -69,9 +71,9 @@ function Main() {
                 {/*Video Here*/}
                 <div data-aos="zoom-in" data-aos-once="true" className="hiw-video">
                     <video controls>
-                            <source src={VideoPitch} type="video/ogg"/>
-                            <source src={VideoPitch} type="video/avi"/>
-                            <source  src={VideoPitch} type="video/mp4"/>
+                            <source src={VideoDemo} type="video/ogg"/>
+                            <source src={VideoDemo} type="video/avi"/>
+                            <source src={VideoDemo} type="video/mp4"/>
                             <p>Sorry, your browser does not support the video type, but you can download it by clicking <a href="#">HERE</a></p>
                     </video>
                 </div>
@@ -79,6 +81,17 @@ function Main() {
                     <p className="description_paragraph">When an email is sent to the person responsible for the spreadsheet in Excel with the PDF of the Invoice, the Artificial Intelligence will read the data and store in the variables the same ones it was trained to read.</p>
 
                     <p className="description_paragraph">After saving the data, the Power Automate automation will insert the variable data into their respective worksheet fields.</p>
+                </div>
+            </section>
+
+            <section className="anm__main">
+                <div data-aos="zoom-in" data-aos-once="true" className="hiw-video">
+                    <video autoPlay loop muted>
+                        <source src={VideoAnm} type="video/ogg"/>
+                        <source src={VideoAnm} type="video/avi"/>
+                        <source src={VideoAnm} type="video/mp4"/>
+                        <p>Sorry, your browser does not support the video type, but you can download it by clicking <a href="#">HERE</a></p>
+                    </video>
                 </div>
             </section>
 

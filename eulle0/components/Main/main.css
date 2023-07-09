@@ -116,7 +116,10 @@ main{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin-bottom: 10rem;
+}
+
+.anm__main {
+    margin: 4rem 0 4rem 0 ;
 }
 
 
